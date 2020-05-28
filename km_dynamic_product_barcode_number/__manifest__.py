@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+# Part of BrowseInfo. See LICENSE file for full copyright and licensing details.
+
+{
+    'name': "Dynamic Products Barcode Number",
+    'description': """ 
+        Product and products variants barcode generate, You can set also your company barcode prefix
+        odoo product barcode solution,
+        product barcode number generate,
+        product barcode number generator,
+        barcode number generate odoo,
+        odoo barcode number generate,
+        product barcode,
+        barcode generte,
+        odoo barcode solution,
+        automatic barcode generator,
+        uniqe barcode generate,
+        EAN13 barcode number generate,
+        random barcode number generator odoo,
+        odoo barcode fix,
+    """,
+    'version': '12.0.0.1',
+    'category': 'Inventory',
+    'author': 'Kamrul Hasan',
+    'live_test_url': 'http://kamrul.net',
+    'price': '9.99',
+    'website': 'http://kamrul.net',
+    'sequence': 0,
+    'depends': [
+        'base',
+        'stock',
+    ],
+    'demo': [],
+    'data': [
+        'wizards/product_product_barcode.xml',
+        'wizards/product_template_barcode.xml',
+        'views/setting.xml',
+    ],
+    'qweb': [],
+    "currency": 'EUR',
+    'installable': True,
+    'application': True,
+    'images': ['static/description/banner.png','static/description/images/generate-popup.png'],
+    'support': 'kamruldev66@gmail.com',
+    "license": "OPL-1",
+}

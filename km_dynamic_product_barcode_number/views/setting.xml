@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_config_settings_dynamic_product_barcode_number_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.stock.barcode</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="10"/>
+        <field name="inherit_id" ref="account.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@data-string='Inventory']" position="inside">
+                <h2>Dynamic Product Barcode Number</h2>
+                <div class="row mt16 o_settings_container">
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <label for="barcode_prefix">Product Barcode 2 digit Prefix </label>
+                        <div class="text-muted">Set your product barcode prefix value</div>
+                        <field name="barcode_prefix"/>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
