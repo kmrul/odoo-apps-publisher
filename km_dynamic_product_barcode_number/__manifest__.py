@@ -22,7 +22,7 @@
     'version': '12.0.0.1',
     'category': 'Inventory',
     'author': 'Kamrul Hasan',
-    'live_test_url': 'http://kamrul.net',
+    'live_test_url': 'https://www.youtube.com/watch?v=Jfxbvd_2YfA',
     'price': '9.99',
     'website': 'http://kamrul.net',
     'sequence': 0,
