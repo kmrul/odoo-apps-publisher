@@ -41,7 +41,7 @@
     "currency": 'EUR',
     'installable': True,
     'application': True,
-    'images': ['static/description/main-banner.png','static/description/banner.png','static/description/images/generate-popup.png'],
+    'images': ['static/description/main_banner.png','static/description/banner.png','static/description/images/generate-popup.png'],
     'support': 'kamruldev66@gmail.com',
     "license": "OPL-1",
 }

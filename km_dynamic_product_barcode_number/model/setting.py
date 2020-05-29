@@ -4,7 +4,7 @@ from odoo import fields, models, api
 class ResConfigSettingExtend(models.TransientModel):
     _inherit = 'res.config.settings'
 
-    barcode_prefix = fields.Char(size=2, default="10")
+    barcode_prefix = fields.Char(size=2, default="10", required=True)
 
     def set_values(self):
         res = super(ResConfigSettingExtend, self).set_values()

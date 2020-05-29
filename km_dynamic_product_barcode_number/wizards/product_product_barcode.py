@@ -13,7 +13,6 @@ class DynamicProductBarcode(models.TransientModel):
         print("default_get:", sale_order_ids)
         return res
 
-    @api.multi
     def dynamic_product_barcode(self):
         print('Confirm barcode generator')
         self.ensure_one()
