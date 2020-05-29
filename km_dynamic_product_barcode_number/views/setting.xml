@@ -4,9 +4,9 @@
         <field name="name">res.config.settings.view.form.inherit.stock.barcode</field>
         <field name="model">res.config.settings</field>
         <field name="priority" eval="10"/>
-        <field name="inherit_id" ref="account.res_config_settings_view_form"/>
+        <field name="inherit_id" ref="stock.res_config_settings_view_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//div[@data-string='Inventory']" position="inside">
+            <xpath expr="//div[@data-key='stock']/div[hasclass('o_settings_container')][1]" position="inside">
                 <h2>Dynamic Product Barcode Number</h2>
                 <div class="row mt16 o_settings_container">
                     <div class="col-12 col-lg-6 o_setting_box">

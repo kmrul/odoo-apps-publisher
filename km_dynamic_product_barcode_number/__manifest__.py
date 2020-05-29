@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of BrowseInfo. See LICENSE file for full copyright and licensing details.
+# Part of Kamrul Hasan. See LICENSE file for full copyright and licensing details.
 
 {
     'name': "Dynamic Products Barcode Number",
+    'summary':'This module using for odoo product barcode number generate. You can alos add prefix of your company.',
     'description': """ 
         Product and products variants barcode generate, You can set also your company barcode prefix
         odoo product barcode solution,
@@ -40,7 +41,7 @@
     "currency": 'EUR',
     'installable': True,
     'application': True,
-    'images': ['static/description/banner.png','static/description/images/generate-popup.png'],
+    'images': ['static/description/main-banner.png','static/description/banner.png','static/description/images/generate-popup.png'],
     'support': 'kamruldev66@gmail.com',
     "license": "OPL-1",
 }

@@ -13,5 +13,5 @@ def generate_ean(self, ean):
     prefix = self.env['ir.config_parameter'].sudo().get_param('km_dynamic_product_barcode_number.barcode_prefix')
     print('prefix:',prefix)
     if len(ean) < 13:
-        ean = prefix + '0' * (11 - len(ean)) + ean
+        ean = str(prefix) + '0' * (11 - len(ean)) + ean
     return ean
