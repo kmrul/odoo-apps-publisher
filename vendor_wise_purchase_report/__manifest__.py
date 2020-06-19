@@ -2,7 +2,7 @@
 {
     'name': 'Vendors Wise Purchase Report',
     'version': '12.0.0.0.1',
-    'summary': 'Your can show purchase reports vendor and date wise ',
+    'summary': 'Generate purchase report filter by date, vendors, State/status.',
     "description": """
         Vendors wise purchase report,
         purchase report by vendors,
