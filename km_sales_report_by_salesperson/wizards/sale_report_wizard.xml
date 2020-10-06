@@ -27,7 +27,7 @@
     </record>
 
     <record id="action_sale_report_wizard" model="ir.actions.act_window">
-        <field name="name">Sales Report By Salesperson</field>
+        <field name="name">By Salesperson</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">sale.salesperson.report</field>
         <field name="view_mode">form</field>

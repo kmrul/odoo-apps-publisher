@@ -14,7 +14,7 @@
         'reports/sale_reports.xml',
         'reports/sale_report_view.xml',
     ],
-    'images': ['static/description/sale-report-banner.png'],
+    'images': ['static/description/sales_report_by_salesperson.png'],
     'price': 0.0,
     'currency': 'EUR',
     'installable': True,
