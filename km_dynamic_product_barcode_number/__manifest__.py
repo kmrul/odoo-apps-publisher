@@ -2,7 +2,7 @@
 # Part of Kamrul Hasan. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': "Generate Products Barcode Number",
+    'name': "Generate Products Barcode",
     'summary':'This module using for odoo product barcode number generate. You can alos add prefix of your company.',
     'description': """ 
         Product and products variants barcode generate, You can set also your company barcode prefix
