@@ -2,7 +2,7 @@
 # Part of Kamrul Hasan. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': "Dynamic Products Barcode Number",
+    'name': "Generate Products Barcode Number",
     'summary':'This module using for odoo product barcode number generate. You can alos add prefix of your company.',
     'description': """ 
         Product and products variants barcode generate, You can set also your company barcode prefix
@@ -20,7 +20,7 @@
         random barcode number generator odoo,
         odoo barcode fix,
     """,
-    'version': '12.0.0.1',
+    'version': '13.0.0.1',
     'category': 'Inventory',
     'author': 'Kamrul Hasan',
     'live_test_url': 'https://www.youtube.com/watch?v=Jfxbvd_2YfA',
@@ -41,7 +41,7 @@
     "currency": 'EUR',
     'installable': True,
     'application': True,
-    'images': ['static/description/main_banner.png'],
+    'images': ['static/description/generate_product_barcode_banner.png'],
     'support': 'kamruldev66@gmail.com',
     "license": "OPL-1",
 }
