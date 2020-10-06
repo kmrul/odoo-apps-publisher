@@ -24,7 +24,7 @@
     'category': 'Inventory',
     'author': 'Kamrul Hasan',
     'live_test_url': 'https://www.youtube.com/watch?v=Jfxbvd_2YfA',
-    'price': '9.99',
+    'price': '0',
     'website': 'http://kamrul.net',
     'sequence': 0,
     'depends': [
