@@ -3,7 +3,7 @@
     <data>
         <report
                 id="report_purchase_vendor"
-                string="Vendor Wise Purchase Report"
+                string="By Vendors"
                 model="vendor.purchase.report.wizard"
                 report_type="qweb-pdf"
                 file="vendor_wise_purchase_report.purchase_report_vendor"

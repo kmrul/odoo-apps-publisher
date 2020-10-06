@@ -1,8 +1,8 @@
 
 {
-    'name': 'Vendors Wise Purchase Report',
+    'name': 'Purchase Report by Vendors',
     'version': '12.0.0.0.1',
-    'summary': 'Generate purchase report filter by date, vendors, State/status.',
+    'summary': 'Generate purchase report filter by date, vendors, State/status. You can easily generate specific verdor report',
     "description": """
         Vendors wise purchase report,
         purchase report by vendors,
