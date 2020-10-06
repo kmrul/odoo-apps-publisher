@@ -13,3 +13,5 @@ published in odoo apps store link:
 
 [Download](https://apps.odoo.com/apps/modules/13.0/vendor_wise_purchase_report/)
 
+
+Load more and visit my blog [Click here](http://kamrul.net)
