@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="res_partner_form_inherit" model="ir.ui.view">
+            <field name="name">whatsapp.res_partner.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='mobile']" position="replace">
+                    <div class="o_row">
+                        <field name="mobile"/>
+                        <button name="whatsapp_message_partner" string="Whatsapp" icon="fa-whatsapp" type="object" class="oe_stat_button" style="padding:0;font-size: 11px;margin: 0;margin-top: -5px;color: #887bb2;font-weight: 700;"/>
+                    </div>
+
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
